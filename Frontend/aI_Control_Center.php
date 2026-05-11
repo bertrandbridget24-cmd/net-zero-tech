@@ -202,16 +202,16 @@
 				<span class="font-headline-lg text-headline-lg font-bold tracking-tighter text-primary">LUMENS AI</span>
 				<div class="hidden md:flex items-center gap-6">
 					<nav class="flex gap-6">
-						<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200 px-3 py-1 rounded" href="#">
+						<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200 px-3 py-1 rounded" href="main.php">
 							Main Dashboard
 						</a>
-						<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200 px-3 py-1 rounded" href="#">
+						<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200 px-3 py-1 rounded" href="verification_&amp;_MRV%20Module.php">
 							MRV Verification
 						</a>
-						<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200 px-3 py-1 rounded" href="#">
+						<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200 px-3 py-1 rounded" href="reporting_&amp;_Analytics.php">
 							Reporting &amp; Analytics
 						</a>
-						<a class="text-primary font-bold border-b-2 border-primary px-3 py-1" href="#">AI Control Center</a>
+						<a class="text-primary font-bold border-b-2 border-primary px-3 py-1" href="aI_Control_Center.php">AI Control Center</a>
 					</nav>
 				</div>
 			</div>
@@ -248,26 +248,26 @@
 			<nav class="flex-1 px-4 space-y-1">
 				<a
 					class="flex items-center gap-3 px-4 py-2.5 rounded text-on-surface-variant hover:bg-surface-variant/40 transition-all duration-200 group"
-					href="#"
+					href="main.php"
 				>
 					<span class="material-symbols-outlined text-[20px] group-hover:text-primary">dashboard</span>
 					<span class="font-label-md text-label-md">Main Dashboard</span>
 				</a>
 				<a
 					class="flex items-center gap-3 px-4 py-2.5 rounded text-on-surface-variant hover:bg-surface-variant/40 transition-all duration-200 group"
-					href="#"
+					href="verification_&amp;_MRV%20Module.php"
 				>
 					<span class="material-symbols-outlined text-[20px] group-hover:text-primary">verified</span>
 					<span class="font-label-md text-label-md">MRV Verification</span>
 				</a>
 				<a
 					class="flex items-center gap-3 px-4 py-2.5 rounded text-on-surface-variant hover:bg-surface-variant/40 transition-all duration-200 group"
-					href="#"
+					href="reporting_&amp;_Analytics.php"
 				>
 					<span class="material-symbols-outlined text-[20px] group-hover:text-primary">analytics</span>
 					<span class="font-label-md text-label-md">Reporting &amp; Analytics</span>
 				</a>
-				<a class="flex items-center gap-3 px-4 py-2.5 rounded bg-primary text-white transition-transform" href="#">
+				<a class="flex items-center gap-3 px-4 py-2.5 rounded bg-primary text-white transition-transform" href="aI_Control_Center.php">
 					<span class="material-symbols-outlined text-[20px]">psychology</span>
 					<span class="font-label-md text-label-md">AI Control Center</span>
 				</a>

@@ -219,19 +219,19 @@
 					<p class="text-on-surface-variant text-[10px] font-label-caps mt-1" data-label="site-version"></p>
 				</div>
 				<nav class="flex-1 space-y-2 px-3">
-					<a class="flex items-center gap-4 px-4 py-3 bg-surface-container text-primary font-bold border-r-4 border-primary transition-all" href="#">
+					<a class="flex items-center gap-4 px-4 py-3 bg-surface-container text-primary font-bold border-r-4 border-primary transition-all" href="main.php">
 						<span class="material-symbols-outlined">dashboard</span>
 						<span class="font-label-caps text-label-caps">Main Dashboard</span>
 					</a>
-					<a class="flex items-center gap-4 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" href="#">
+					<a class="flex items-center gap-4 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" href="verification_&amp;_MRV%20Module.php">
 						<span class="material-symbols-outlined">verified</span>
 						<span class="font-label-caps text-label-caps">MRV Verification</span>
 					</a>
-					<a class="flex items-center gap-4 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" href="#">
+					<a class="flex items-center gap-4 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" href="reporting_&amp;_Analytics.php">
 						<span class="material-symbols-outlined">analytics</span>
 						<span class="font-label-caps text-label-caps">Reporting and Analytics</span>
 					</a>
-					<a class="flex items-center gap-4 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" href="#">
+					<a class="flex items-center gap-4 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" href="aI_Control_Center.php">
 						<span class="material-symbols-outlined">psychology</span>
 						<span class="font-label-caps text-label-caps">AI Control Center</span>
 					</a>

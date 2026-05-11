@@ -156,17 +156,21 @@
 			<div class="flex items-center gap-8">
 				<h1 class="font-headline-lg text-headline-lg font-bold tracking-tighter text-primary">LUMENS AI</h1>
 				<div class="hidden md:flex gap-6 items-center">
-					<span
+					<a
 						class="text-on-surface-variant font-medium hover:bg-surface-container-low transition-colors duration-200 px-3 py-1 cursor-pointer rounded-lg"
+						href="main.php"
 					>
 						Main Dashboard
-					</span>
-					<span class="text-secondary font-bold border-b-2 border-secondary px-3 py-1 cursor-pointer">MRV Verification</span>
-					<span
+					</a>
+					<a class="text-secondary font-bold border-b-2 border-secondary px-3 py-1 cursor-pointer" href="verification_&amp;_MRV%20Module.php">
+						MRV Verification
+					</a>
+					<a
 						class="text-on-surface-variant font-medium hover:bg-surface-container-low transition-colors duration-200 px-3 py-1 cursor-pointer rounded-lg"
+						href="reporting_&amp;_Analytics.php"
 					>
 						Reporting and Analytics
-					</span>
+					</a>
 				</div>
 			</div>
 			<div class="flex items-center gap-6">
@@ -200,30 +204,34 @@
 				<p class="text-on-surface-variant font-label-caps text-[10px] uppercase tracking-widest" data-label="site-version"></p>
 			</div>
 			<div class="flex-1 px-4 space-y-2">
-				<div
+				<a
 					class="flex items-center gap-3 p-3 text-on-surface-variant hover:bg-surface-container-low transition-all duration-200 rounded-lg cursor-pointer"
+					href="main.php"
 				>
 					<span class="material-symbols-outlined">dashboard</span>
 					<span class="font-label-caps text-label-caps">Main Dashboard</span>
-				</div>
-				<div
+				</a>
+				<a
 					class="flex items-center gap-3 p-3 bg-secondary/5 text-secondary border-r-4 border-secondary transition-all rounded-lg cursor-pointer font-bold"
+					href="verification_&amp;_MRV%20Module.php"
 				>
 					<span class="material-symbols-outlined">verified</span>
 					<span class="font-label-caps text-label-caps">MRV Verification</span>
-				</div>
-				<div
+				</a>
+				<a
 					class="flex items-center gap-3 p-3 text-on-surface-variant hover:bg-surface-container-low transition-all duration-200 rounded-lg cursor-pointer"
+					href="reporting_&amp;_Analytics.php"
 				>
 					<span class="material-symbols-outlined">analytics</span>
 					<span class="font-label-caps text-label-caps">Reporting and Analytics</span>
-				</div>
-				<div
+				</a>
+				<a
 					class="flex items-center gap-3 p-3 text-on-surface-variant hover:bg-surface-container-low transition-all duration-200 rounded-lg cursor-pointer"
+					href="aI_Control_Center.php"
 				>
 					<span class="material-symbols-outlined">psychology</span>
 					<span class="font-label-caps text-label-caps">AI Control Center</span>
-				</div>
+				</a>
 			</div>
 			<div class="px-4 mt-auto space-y-4">
 				<button
@@ -422,22 +430,22 @@
 		<nav
 			class="md:hidden fixed bottom-0 left-0 right-0 h-16 bg-surface border-t border-outline-variant z-50 flex justify-around items-center px-4"
 		>
-			<button class="flex flex-col items-center gap-1 text-on-surface-variant" type="button">
+			<a class="flex flex-col items-center gap-1 text-on-surface-variant" href="main.php">
 				<span class="material-symbols-outlined">dashboard</span>
 				<span class="text-[10px] font-label-caps font-bold">Main</span>
-			</button>
-			<button class="flex flex-col items-center gap-1 text-secondary" type="button">
+			</a>
+			<a class="flex flex-col items-center gap-1 text-secondary" href="verification_&amp;_MRV%20Module.php">
 				<span class="material-symbols-outlined">verified</span>
 				<span class="text-[10px] font-label-caps font-bold">MRV</span>
-			</button>
-			<button class="flex flex-col items-center gap-1 text-on-surface-variant" type="button">
+			</a>
+			<a class="flex flex-col items-center gap-1 text-on-surface-variant" href="reporting_&amp;_Analytics.php">
 				<span class="material-symbols-outlined">analytics</span>
 				<span class="text-[10px] font-label-caps font-bold">Reports</span>
-			</button>
-			<button class="flex flex-col items-center gap-1 text-on-surface-variant" type="button">
+			</a>
+			<a class="flex flex-col items-center gap-1 text-on-surface-variant" href="aI_Control_Center.php">
 				<span class="material-symbols-outlined">psychology</span>
 				<span class="text-[10px] font-label-caps font-bold">AI</span>
-			</button>
+			</a>
 		</nav>
 		<div class="h-20 md:hidden"></div>
 	</body>
